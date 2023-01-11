@@ -20,8 +20,8 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Projects | Portfolio Saurav Mukherjee";
-        $("#favicon").attr("href","/assests/images/favicon.png");
+        document.title = "Projects | Portfolio Manish Pandey";
+        $("#favicon").attr("href","/assests/images/android-chrome-192x192.png");
     }
     else {
         document.title = "Come Back To Portfolio";
