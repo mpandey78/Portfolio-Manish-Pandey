@@ -86,7 +86,7 @@ header .logo{
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0E2431;
+  color: #ffffff;
 }
 header .logo i {
   font-size: 2.2rem;
@@ -114,8 +114,10 @@ header .navbar ul li a{
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
-  color: #050b3e;
-  border-bottom: .2rem solid #050b42;
+  /* color: #050b3e; */
+  color: #ffffff;
+  border-bottom: .2rem solid #ffffff;
+  background: rgba(255, 255, 255, .15);
   padding: .5rem 0;
 }
 /* navbar ends */
