@@ -954,7 +954,8 @@ content: '';
 .work .box-container .box img{
   height: 100%;
   width:100%;
-  object-fit: cover;
+  object-fit: contain;
+  /* object-fit: cover; */
 }
 .work .box-container .box .content{
   height: 100%;
@@ -973,7 +974,8 @@ content: '';
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #480eb4;
+  color: #ffffff;
 }
 .work .box-container .box .content .tag h3{
   font-size: 2rem;
