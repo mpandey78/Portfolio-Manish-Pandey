@@ -1520,3 +1520,30 @@ form .button-area{
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+.shape-1 {
+  position: absolute !important;
+  top: 75px;
+  left: -15px;
+  -webkit-animation: 50s linear infinite rotation !important;
+  animation: 50s linear infinite rotate-style !important;
+  animation:rotation 50s  infinite linear !important;
+}
+  
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.hero-images {
+  padding-top: 00px;
+  text-align: center;
+  position: relative;
+}
+.images {
+  position: relative;
+  bottom: -30px;
+}
