@@ -199,8 +199,8 @@ header .navbar ul li a:hover{
   width: 100%;
 }
 .home .content{
-  flex: 1 1 40rem;
-  padding-top: 1rem;
+  flex: 1 1 38rem;
+  padding-top: 6srem;
   z-index: 1;
 }
 .home .image{
@@ -1523,8 +1523,8 @@ form .button-area{
 
 .shape-1 {
   position: absolute !important;
-  top: 75px;
-  left: -15px;
+  /* top: 75px;
+  left: -15px; */
   -webkit-animation: 50s linear infinite rotation !important;
   animation: 50s linear infinite rotate-style !important;
   animation:rotation 50s  infinite linear !important;
@@ -1547,7 +1547,7 @@ form .button-area{
 }
 .images {
   position: relative;
-  bottom: -30px;
+  /* bottom: -30px; */
   /* right: 20px; */
   justify-content: center;
   align-items: center;
