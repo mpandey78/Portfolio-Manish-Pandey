@@ -1547,8 +1547,8 @@ form .button-area{
 }
 .images {
   position: relative;
-  /* bottom: -30px;
-  right: 20px; */
+  bottom: -30px;
+  /* right: 20px; */
   justify-content: center;
   align-items: center;
   display: flex;
