@@ -1553,3 +1553,14 @@ form .button-area{
   align-items: center;
   display: flex;
 }
+@media(max-width:500px){
+
+  .shape-1 {
+    position: absolute !important;
+    /* top: 75px;
+    left: -15px; */
+    -webkit-animation: 0s linear infinite rotation !important;
+    animation: 0s linear infinite rotate-style !important;
+    animation:rotation 0s  infinite linear !important;
+  }
+}
