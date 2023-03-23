@@ -170,3 +170,9 @@ srtop.reveal('.experience .timeline .container',{interval: 400});
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container',{delay: 400});
 srtop.reveal('.contact .container .form-group',{delay: 400});
+
+
+// count api 
+function websiteVisits(response) {
+    document.querySelector("#visits").textContent = response.value;
+}
