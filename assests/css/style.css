@@ -1581,6 +1581,7 @@ form .button-area{
   .images img{
     max-width:250px;
     max-height: 250px;
+    border: 2px solid;
   }
 }
 .count{
