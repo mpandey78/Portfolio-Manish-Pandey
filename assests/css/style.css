@@ -1561,16 +1561,23 @@ form .button-area{
 @media(max-width:500px){
 
   .shape-1 {
+    top: 1rem;
     position: absolute !important;
     /* top: 75px;
     left: -15px; */
     -webkit-animation: 0s linear infinite rotation !important;
     animation: 0s linear infinite rotate-style !important;
-    animation:rotation 0s  infinite linear !important;
+    animation:rotation 5s  infinite linear !important;
+    width: 70%;
   }
   .shape-1{
     max-width: 92%;
     max-height: 68%;
+    margin-left: -2%;
+  }
+  .images{
+    bottom: 65px !important;
+    right: 0px;
   }
 }
 .count{
