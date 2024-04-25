@@ -1559,7 +1559,9 @@ form .button-area{
   display: flex;
 }
 @media(max-width:600px){
-
+  .hero-images{
+    margin-top: 1rem;
+  }
   .shape-1 {
     /* top: 1rem; */
     position: absolute !important;
@@ -1581,7 +1583,6 @@ form .button-area{
   .images img{
     max-width:250px;
     max-height: 250px;
-    border: 2px solid;
   }
 }
 .count{
