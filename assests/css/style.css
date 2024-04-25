@@ -1548,6 +1548,8 @@ form .button-area{
   display: flex;
   justify-content: center;
 }
+
+
 .images {
   position: relative;
   bottom: -30px;
@@ -1565,6 +1567,10 @@ form .button-area{
     -webkit-animation: 0s linear infinite rotation !important;
     animation: 0s linear infinite rotate-style !important;
     animation:rotation 0s  infinite linear !important;
+  }
+  .shape-1{
+    max-width: 92%;
+    max-height: 68%;
   }
 }
 .count{
